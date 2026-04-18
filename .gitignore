@@ -1,0 +1,51 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Entorno virtual
+venv/
+env/
+.venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos temporales y logs
+*.log
+*.tmp
+*.temp
+
+# Editor y IDE
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+*.swo
+
+# Imágenes y archivos grandes (si no quieres subirlos)
+# *.jpg
+# *.png
+# *.pdf
+
+# Archivos de configuración local
+.env
+.env.local
+config.local.*
+
+# Carpetas de build o exportación
+_build/
+dist/
+out/
+
+# Mac
+.AppleDouble
+.LSOverride
